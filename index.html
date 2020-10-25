@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+		<title>Student Registration</title>
+		<link rel=”icon” href="IMG/icon.png">
+		<link rel="stylesheet" type="text/css" href="CSS/slider.css">
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+		<link rel="stylesheet" type="text/css" href="CSS/textbox.css">
+		<link rel="stylesheet" type="text/css" href="CSS/dropdown.css">
+	</head>
+
+	<body>
+		<!-- Body Design -->
+		
+		<div class="kerangka">
+			
+			<!-- Header -->
+			<div class="header">
+				<font class="ftheader">STUDENT REGISTRATION</font>
+			</div>
+			<br>
+			<div class="logohead"></div>
+			<br>
+			<!-- Tutup Header -->
+			
+			<!-- Konten -->
+			<div class="slider">
+				<figure>
+					<div class="slide">
+						<img src="IMG/HVRD.jpg">
+					</div>
+
+					<div class="slide">
+						<img src="IMG/HVRD2.jpg">
+					</div>
+
+					<div class="slide">
+						<img src="IMG/HVRD3.jpg">
+					</div>
+				
+					<div class="slide">
+						<img src="IMG/HVRD.jpg">
+					</div>
+				</figure>
+			</div>
+			<br>
+			<!-- Form -->
+			<table>
+				<td width="260" align="center"><img src="IMG/source.gif" width="50%"></td>
+				<td width="260" align="center"><img src="IMG/source (2).gif" width="50%"></td>
+				<td width="260" align="center"><img src="IMG/source (1).gif" width="50%"></td>
+			</table>
+			
+			<div class="formregis">
+			<div class="input-field-border-bottom">
+				<center><font class="biodata"> BIODATA </font></center>
+				<br>
+				<form>
+					<table cellspacing="10">
+						<tr>
+							<td width="220">No Registration</td>
+							<td width="40">:</td>
+							<td width="520"><input type="text" name="noregis" value="" size="15" /></td>
+						</tr>
+						<tr>
+							<td width="220">School Year</td>
+							<td width="40">:</td>
+							<td width="520">
+							<div class="custom-select">
+								<select name="tahunajaran">
+									<option value="">  -- Select The Scool Year --  </option>
+									<option value="2019/2020"> 2019 / 2020  </option>
+									<option value="2020/2021"> 2020 / 2021  </option>
+									<option value="2021/2022"> 2021 / 2022  </option>
+									<option value="2022/2023"> 2022 / 2023  </option>
+								</select>
+							</div>
+							
+							</td>
+						</tr>
+						<tr>
+							<td width="220">Full Name</td>
+							<td width="40">:</td>
+							<td width="520"><input type="text" name="nama" value="" size="50" /></td>
+						</tr>
+						<tr>
+							<td width="220">Gender</td>
+							<td width="40">:</td>
+							<td width="520">
+								<input id="option" type="radio" name="jk" value="L" checked />
+  								<label for="option">
+									<span><span></span></span>Male
+								</label>
+								<input id="options" type="radio" name="jk" value="P" />
+  								<label for="options">
+									<span><span></span></span>Female
+								</label>
+							</td>
+						</tr>
+						<tr>
+							<td width="220">Religion</td>
+							<td width="40">:</td>
+							<td width="520">
+								<input id="optionss" type="radio" name="agama" value="I" checked />
+  								<label for="optionss">
+									<span><span></span></span>Islam
+								</label>
+								<input id="optionsss" type="radio" name="agama" value="C" />
+  								<label for="optionsss">
+									<span><span></span></span>Christian 
+								</label>
+								<input id="optionssss" type="radio" name="agama" value="H" />
+  								<label for="optionssss">
+									<span><span></span></span>Hindu
+								</label>
+								<input id="optionsssss" type="radio" name="agama" value="B" />
+  								<label for="optionsssss">
+									<span><span></span></span>Buddha
+								</label>
+							</td>
+						</tr>
+						<tr>
+							<td width="220">Blood Group</td>
+							<td width="40">:</td>
+							<td width="520">
+							<div class="custom-select">
+								<select name="golongandarah">
+									<option value=""> -- Select -- </option>
+									<option value="o"> O  </option>
+									<option value="a"> A  </option>
+									<option value="b"> B  </option>
+									<option value="ab"> AB </option>
+								</select>
+							</div>
+							
+							</td>
+						</tr>
+						<tr>
+							<td width="220">Your Number Phone</td>
+							<td width="40">:</td>
+							<td width="520"><input type="text" name="nophone" value="" size="30" /></td>
+						</tr>
+						<tr>
+							<td width="220">Email</td>
+							<td width="40">:</td>
+							<td width="520"><input type="text" name="email" value="" size="30" /></td>
+						</tr>
+						<tr>
+							<td width="220">Addres</td>
+							<td width="40">:</td>
+							<td width="520"><textarea name="alamat" rows="5" cols="60"></textarea></td>
+						</tr>
+						<tr>
+							<td width="220">Date Of&nbsp; Birth</td>
+							<td width="40">:</td>
+							<td width="520"><input type="text" name="tempatlahir" value="" size="20" /> , <input type="date" name="tgllahir" value="" /></td>
+						</tr>
+					</table>
+				<br>
+				<center><font class="orangtua"> PARENT DATA </font></center>
+				<br>
+					<table cellspacing="10">
+						<tr>
+							<td width="220">Father's Name</td>
+							<td width="40">:</td>
+							<td width="520"><input type="text" name="namaayah" value="" size="55" /></td>
+						</tr>
+						<tr>
+							<td width="220">Father's Occupation</td>
+							<td width="40">:</td>
+							<td width="520"><input type="text" name="pekerjaanayah" value="" size="25" /></td>
+						</tr>
+						<tr>
+							<td width="220">Mother's Name</td>
+							<td width="40">:</td>
+							<td width="520"><input type="text" name="namaibu" value="" size="55" /></td>
+						</tr>
+						<tr>
+							<td width="220">Mother's Occupation</td>
+							<td width="40">:</td>
+							<td width="520"><input type="text" name="pekerjaanibu" value="" size="25" /></td>
+						</tr>
+					</table>
+				<br>
+				<center><font class="asalsklh"> SCHOOL ORIGIN </font></center>
+				<br>
+					<table cellspacing="10">
+						<tr>
+							<td width="220">School Name</td>
+							<td width="40">:</td>
+							<td width="520"><input type="text" name="namasekolah" value="" size="55" /></td>
+						</tr>
+						<tr>
+							<td width="220">NPSN</td>
+							<td width="40">:</td>
+							<td width="520"><input type="text" name="npsn" value="" size="20" /></td>
+						</tr>
+						<tr>
+							<td width="220">School Addres</td>
+							<td width="40">:</td>
+							<td width="520"><textarea name="alamatsekolah" rows="5" cols="60"></textarea></td>
+						</tr>
+						<tr>
+							<td width="220">Country</td>
+							<td width="40">:</td>
+							<td width="520"><input type="text" name="negara" value="" size="25" /></td>
+						</tr>
+						<tr>
+							<td width="220">City</td>
+							<td width="40">:</td>
+							<td width="520"><input type="text" name="kota" value="" size="15" /></td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td class="align" align="center"><button class="button-save" name="kirim">SEND</button> <button class="button-cancel" name="batal">CANCEL</button></td>
+						</tr>
+					</table>
+				</form>
+				</div>
+				<script src="JS/index.js"></script>
+				<br>
+				<div class="footer">
+					<font class="ftfooter">Havard University | Make By : Syakir Abdul Hamid | Copyright 2020 &copy;</font>
+				</div>
+			</div>
+			<!-- Tutup Konten -->
+		</div>
+		<!-- Tutup Body Design -->
+	</body>
+</html>

@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+body:before {
+content: "";
+  position: fixed;
+  z-index: -1;
+  background-size:cover;
+  background-position:center top;
+  display: block;
+  background-image: url("../IMG/BG.jpg");
+  width: 100%;
+  height: 100%;
+  filter: blur(1px) ;
+  -webkit-filter: blur(4px) ;
+}
+
+form{
+	width: 780px;
+}
+
+table{
+	width: 780px;
+	padding: 0px 5px 0px 5px;
+}
+
+.kerangka{
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	width: 780px;
+	height: auto;
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.6);
+    border: 0px dashed grey;
+}
+
+.header{
+	background-color: #000000;
+	width: auto;
+	height: 55px;
+	padding-top: 20px;
+	text-align: center;	
+}
+
+.footer{
+	background-color: #000000;
+	width: auto;
+	height: 50px;
+	padding-top: 20px;
+	text-align: center;	
+}
+
+.gambarhdr{
+	height: 450px;
+}
+
+.formregis{
+	width: auto;
+	height: auto;
+	font-family: "arial";
+}
+
+.logohead{
+	width: 300px;
+	height: 89px;
+	margin-left: 245px;
+	background-image: url("../IMG/Havard.png");
+}
+
+.ftheader{
+	font-family: "arial";
+	font-size: 33px;
+	color: #FFFFFF;
+	font-weight: 550;
+}
+
+.ftfooter{
+	font-family: "arial";
+	font-size: 15px;
+	color: #FFFFFF;
+	font-weight: 550;
+}
+
+.biodata{
+	font-family: "arial";
+	font-size: 20px;
+	color: #000;
+	font-weight: 550;
+}
+
+.orangtua{
+	font-family: "arial";
+	font-size: 20px;
+	color: #000;
+	font-weight: 550;
+}
+
+.asalsklh{
+	font-family: "arial";
+	font-size: 20px;
+	color: #000;
+	font-weight: 550;
+}
+
+.button-save {
+    border: 1px solid #28A041;        
+    background-color: #28A041;        
+    color: #FFFFFF;                   
+    font-size: 16px;                  
+	font-family: "arial";
+    padding: 0.5em 1em 0.5em 1em;    
+}
+.button-save:hover {
+    opacity: 0.7;                     
+}
+.button-save:active {
+    background: #28A041;             
+}
+
+.button-cancel {
+    border: 1px solid #A0181A;        
+    background-color: #A0181A;        
+    color: #FFFFFF;                   
+    font-size: 16px;                  
+	font-family: "arial";
+    padding: 0.5em 1em 0.5em 1em;    
+}
+.button-cancel:hover {
+    opacity: 0.7;                     
+}
+.button-cancel:active {
+    background: #A0181A;             
+}
+.align{
+	padding-top: 20px;
+}
+
+input[type=radio   ]:not(old){
+  width     : 1em;
+  margin    : 0;
+  padding   : 0;
+  font-size : 1em;
+  opacity   : 0;
+}
+
+input[type=radio   ]:not(old) + label{
+  display      : inline-block;
+  margin-left  : -2em;
+  line-height  : 1.5em;
+}
+
+input[type=radio]:not(old) + label > span{
+  display          : inline-block;
+  width            : 0.875em;
+  height           : 0.875em;
+  margin           : 0.25em 0.5em 0.25em 0.25em;
+  border           : 0.0625em solid rgb(192,192,192);
+  border-radius    : 0.15em;
+  background       : rgb(224,224,224);
+  background-image : -moz-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image : -ms-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image : -o-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image : -webkit-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image : linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  vertical-align   : bottom;
+}
+
+input[type=radio]:not(old):checked + label > span{
+  background-image : -moz-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image : -ms-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image : -o-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image : -webkit-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image : linear-gradient(rgb(224,224,224),rgb(240,240,240));
+}
+
+input[type=radio]:not(old):checked + label > span > span{
+  display          : block;
+  width            : 0.5em;
+  height           : 0.5em;
+  margin           : 0.125em;
+  border           : 0.0625em solid rgb(115,153,77);
+  border-radius    : 0.125em;
+  background       : rgb(153,204,102);
+  background-image : -moz-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image : -ms-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image : -o-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image : -webkit-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image : linear-gradient(rgb(179,217,140),rgb(153,204,102));
+}
